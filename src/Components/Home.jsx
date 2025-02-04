@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin ,faGithub,faTwitter ,faInstagram} from '@fortawesome/free-brands-svg-icons';
+
+
 
 function Home() {
   return (
@@ -18,7 +23,10 @@ function Home() {
   <div >  <a href="https://www.instagram.com/?hl=en" target='blank'> <FontAwesomeIcon icon={faInstagram} /></a></div>
 
         </span>
-
+         
+        <About />
+        <Projects />
+        <Contact />
     </div>
    
     

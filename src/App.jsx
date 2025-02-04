@@ -6,7 +6,7 @@ import Footer from './Components/Footer'
 import About from './Components/About'
 import Projects from './Components/Projects'
 import Contact from'./Components/Contact'
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import { Route, HashRouter as Router, Routes } from 'react-router-dom'
 import CaseStudies from './Components/CaseStudies'
 import AboutMe from './Components/AboutMe'
 function App() {
@@ -20,7 +20,7 @@ function App() {
 
         <Routes>
 
-        <Route path='/' element={   <><Home /> <About />  <Projects /> <Contact />  </>}/>
+        <Route path='/' element={  <Home />  }/>
 
         <Route path='/About' element={  <About />}/>
         <Route path='/Projects' element={      <Projects />}/>
