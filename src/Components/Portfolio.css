@@ -71,7 +71,7 @@ object-fit:cover;
 .home_container{
     display:flex;
     flex-direction: column;
-    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("C:\Users\user\OneDrive\Desktop\vite react\shashank_portfolio_01\public\common-bg.svg");
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("/common-bg.svg");
      justify-content: center;
     gap: 50px;
     padding-top: 200px;
@@ -521,7 +521,7 @@ font-family:  sans-serif;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("C:\Users\user\OneDrive\Desktop\vite react\shashank_portfolio_01\public\common-bg.svg");
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("/common-bg.svg");
  width: 100%;
  padding: 200px;
 
@@ -670,7 +670,7 @@ text-transform: capitalize;
     justify-content: center;
     align-items: center;
     gap: 25px;
-    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("C:\Users\user\OneDrive\Desktop\vite react\shashank_portfolio_01\public\common-bg.svg");
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("/common-bg.svg");
 
 
 }
@@ -692,7 +692,7 @@ text-transform: capitalize;
     justify-content: space-around;
     align-items: center;
 
-    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("C:\Users\user\OneDrive\Desktop\vite react\shashank_portfolio_01\public\common-bg.svg");
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("/common-bg.svg");
 
 }
 .AboutMe_summary_image_left{
