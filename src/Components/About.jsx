@@ -13,7 +13,7 @@ function About({setmenubar,menubar}) {
 
                 <div className="About_container_02_right">
                     <h1 className='About_container_02_right_main'>Get to know me!</h1>
-                    <p className='About_container_02_right_lines'>I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that lead to the success of the overall product. Check out some of my work in the Projects section.</p>
+                    <p className='About_container_02_right_lines'>"I'm a Frontend-Focused Full-Stack Web Developer, building and managing the front-end of websites and web applications to ensure a seamless user experience and contribute to the success of the overall product. Check out some of my work in the Projects section!</p>
                   <nav   ><Link to ="/Contact"  className='link' > <h1 className='About_container_02_right_contactButton'>contact</h1></Link>  </nav>
                 </div>
                 <div className="About_container_02_left">

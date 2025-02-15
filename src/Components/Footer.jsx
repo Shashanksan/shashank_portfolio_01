@@ -16,7 +16,7 @@ function Footer({setmenubar,menubar}) {
           <div className="social_container">
             <h2 className='social_container_heading' >social</h2>
             <div className='social_container_links'>
-      <div >  <a href="https://www.instagram.com/?hl=en" target='blank'> <FontAwesomeIcon icon={faLinkedin} /></a></div>
+      <div >  <a href="https://www.linkedin.com/in/shashank-s-6310a024a/" target='blank'> <FontAwesomeIcon icon={faLinkedin} /></a></div>
         <div >  <a href="https://github.com/" target='blank'> <FontAwesomeIcon icon={faGithub} /></a></div>
         <div >  <a href="https://x.com/home" target='blank'> <FontAwesomeIcon icon={faTwitter} /></a></div>
         <div >  <a href="https://www.instagram.com/?hl=en" target='blank'> <FontAwesomeIcon icon={faInstagram} /></a></div>

@@ -15,7 +15,7 @@ function AboutMe({setmenubar,menubar}) {
             </div>
             <div className="AboutMe_summary">
                 <div className="AboutMe_summary_image_left">
-                    <img src={img1} width={400} height={400} alt="" />
+                    <img src={img1} alt="" />
                 </div>
                 <div className="AboutMe_summary_lines_right">
                     <p >
@@ -139,7 +139,7 @@ function AboutMe({setmenubar,menubar}) {
 
 
         <div className="education">
-            <h1 className='education_heading'>education and experience</h1>
+            <h1 className='education_heading'>education</h1>
             <div className="education_experience">
                 <div className='education_experience_left'>
                     <div className="school">
@@ -157,21 +157,7 @@ function AboutMe({setmenubar,menubar}) {
                         <p>pursuing a Bachelor's degree in Computer Applications (BCA) at Interface College of Computer Applications, Davanagere, Karnataka, where I maintain a CGPA of <span className='highlight'>8.49</span> (as of the 4th semester).</p>
                     </div>
                 </div>
-                <div className='education_experience_right'>
-                    <div className="qualityInspection">
-
-                        <h2>quality inspection</h2>
-                        <p>Sansera Engineering, Davanagere, Karnataka | 08/2022 – 04/2023</p>
-                        <div className="qualityinspection_description">
-                            <li>Conducted quality inspections and tests on manufactured components to ensure they met industry standards and customer requirements.</li>
-                            <li>Used precision measuring instruments and tools to inspect parts and assemblies for accuracy and conformity</li>
-                            <li>Collaborated with production teams to identify issues and implement corrective actions for improving quality control processes.</li>
-                            <li>Assisted in the development and improvement of quality inspection procedures and protocols.</li>
-                            <li>Maintained detailed records of inspections, test results, and corrective actions taken, contributing to overall quality assurance and production efficiency.</li>
-                        </div>
-
-                    </div>
-                </div>
+         
             </div>
         </div>
         </div>
