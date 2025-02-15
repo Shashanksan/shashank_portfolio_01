@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function About() {
+function About({setmenubar,menubar}) {
     return (
-        <div className='About_container'>
+        <div className='About_container'  onClick={()=>setmenubar(false)}> 
             <div className="About_container_01">
                 <h1 className='About_heading '>About me</h1>
                 <h1 className='About_heading_smallline '> </h1>
-                <p className='About_heading_lines' >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, non.</p>
+                <p className='About_heading_lines' >Passionate Developer | Problem Solver | Tech Enthusiast</p>
             </div>
             <div className="About_container_02">
 

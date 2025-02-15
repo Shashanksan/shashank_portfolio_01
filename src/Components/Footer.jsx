@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin ,faGithub,faTwitter ,faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 
-function Footer() {
+function Footer({setmenubar,menubar}) {
   return (
-    <div className='footer_container'>
+    <div className='footer_container'  onClick={()=>setmenubar(false)}>
          <div className="footer_content">
           <div className="name_tagline_container">
             <h1 className='name_tagline_container_name'>shashank s</h1>

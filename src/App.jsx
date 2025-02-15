@@ -9,25 +9,27 @@ import Contact from'./Components/Contact'
 import { Route, HashRouter as Router, Routes } from 'react-router-dom'
 import CaseStudies from './Components/CaseStudies'
 import AboutMe from './Components/AboutMe'
+import { useState } from 'react'
 function App() {
+  const [menubar,setmenubar]=useState(false);
 
 
   return (
     <div>
 
       <Router >
-      <NavBar />
+      <NavBar setmenubar={setmenubar} menubar={menubar} />
 
         <Routes>
 
-        <Route path='/' element={<Home />}/>
+        <Route path='/' element={<Home  setmenubar={setmenubar} menubar={menubar} />}/>
 
-        <Route path='/About' element={<About />}/>
-        <Route path='/Projects' element={<Projects />}/>
+        <Route path='/About' element={<About setmenubar={setmenubar} menubar={menubar} />}/>
+        <Route path='/Projects' element={<Projects setmenubar={setmenubar} menubar={menubar} />}/>
         
-        <Route path='/Contact' element={<Contact />}/>
-        <Route path='/Casestudies' element={<CaseStudies />}/>
-        <Route path='/AboutMe' element={<AboutMe />}/>
+        <Route path='/Contact' element={<Contact  setmenubar={setmenubar} menubar={menubar} />}/>
+        <Route path='/Casestudies' element={<CaseStudies setmenubar={setmenubar} menubar={menubar} />}/>
+        <Route path='/AboutMe' element={<AboutMe  setmenubar={setmenubar} menubar={menubar}/>}/>
 
         
           

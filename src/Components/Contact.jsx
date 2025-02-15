@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Contact() {
+function Contact({setmenubar,menubar}) {
   return (
-    <div className='contact_container'>
+    <div className='contact_container'  onClick={()=>setmenubar(false)}>
       <div className="contact_main">
         <h1 className='contact_main_heading' >contact</h1>
 <span className='contact_main_smallLine'>  </span>         <p className='contact_main_lines'> Contact

@@ -7,10 +7,10 @@ import { faBars,faTimes } from '@fortawesome/free-solid-svg-icons';
 
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
-function NavBar() {
-  const [menubar,setmenubar]=useState(false);
+function NavBar({setmenubar,menubar}) {
+
   return (
-    <div className='navbar'>
+    <div className='navbar'  onClick={()=>setmenubar(!menubar)}>
       <div className="logo_container">
          <img src={img2}alt="" width={50} height={50}/>
          <h2 className='logo_name'>Shashank s</h2>

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function CaseStudies() {
+function CaseStudies({setmenubar,menubar}) {
   return (
-    <div className='casestudies_container'>
+    <div className='casestudies_container'  onClick={()=>setmenubar(false)}>
       <div className="casestudies_mainpage">
         <h1 className='casestudies_mainpage_heading'>Countries</h1>
         <p className='casestudies_mainpage_lines'>The Countries App is a web application that displays the flags and basic information of all countries. Users can search for countries by name or filter them by continent. Clicking on a country reveals detailed information, making it an easy-to-use tool for exploring global data.</p>

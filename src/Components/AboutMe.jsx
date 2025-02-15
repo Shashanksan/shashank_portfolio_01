@@ -2,9 +2,9 @@
 import React from 'react'
 import img1 from '/01.jpeg'
 
-function AboutMe() {
+function AboutMe({setmenubar,menubar}) {
     return (
-        <div className='AboutMe_container'>
+        <div className='AboutMe_container'  onClick={()=>setmenubar(false)}>
 
             <div className="AboutMe_introduction">
                 <h1 className='AboutMe_heading'>

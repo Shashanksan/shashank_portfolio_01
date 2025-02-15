@@ -1,9 +1,9 @@
 import img3 from '/laptopjpg.jpg'
 import { Link } from 'react-router-dom'
 
-function Projects() {
+function Projects({setmenubar,menubar}) {
   return (
-    <div className="projects_container">
+    <div className="projects_container"  onClick={()=>setmenubar(false)}>
     <div className='project_conatainer_main'>
         <h1 className='projects_main_heading'>projects</h1>
         <span className='projects_main_smallLine'> </span>
