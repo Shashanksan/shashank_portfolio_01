@@ -7,7 +7,7 @@ function CaseStudies({setmenubar,menubar}) {
       <div className="casestudies_mainpage">
         <h1 className='casestudies_mainpage_heading'>Countries</h1>
         <p className='casestudies_mainpage_lines'>The Countries App is a web application that displays the flags and basic information of all countries. Users can search for countries by name or filter them by continent. Clicking on a country reveals detailed information, making it an easy-to-use tool for exploring global data.</p>
-        <h2 className='casestudies_mainpage_button'><a href="https://github.com/Shashanksan/countries" target='blank'>project link</a></h2>
+        <h2 className='casestudies_mainpage_button'><a href="https://shashanksan.github.io/Countries_App_01/" target='blank'>project link</a></h2>
 
       </div>
       <div className="casestudies_middlepage">
@@ -34,7 +34,7 @@ Built using React, this project focuses on efficient data handling and user-frie
             <div className="casestudies_middlepage_seelive">
               <h1 className='casestudies_middlepage_seelive_heading'>see live</h1>
               <div className="casestudies_middlepage_seelive_button">
-              <a href=" https://countriesapp-01.netlify.app/ " target='blank'><h2 className='project link' > project link</h2></a>
+              <a href="https://shashanksan.github.io/Countries_App_01/" target='blank'><h2 className='project link' > project link</h2></a>
             <Link  to ='/' className='goback'><h2 className='go back' > go back</h2></Link>  
               </div>
             
